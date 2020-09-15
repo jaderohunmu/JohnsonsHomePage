@@ -1,0 +1,194 @@
+/* Navigation styles */
+body {
+    margin: 0px;
+}
+nav {
+    display: flex;
+    padding: 40px;
+    align-content: flex-start;
+}
+
+
+.right {
+   width: 40%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: -33%;
+}
+
+.left a, .right a {
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Column styles */
+
+
+.column {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.meal2, .meal1_content, .meal4 {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.Footer {
+    width: 100%;
+    height: 450px;
+    background-color:#2D3A46;
+    color: white;
+
+}
+
+.intouch {
+    padding: 25px 43px;
+}
+.Footer_stuff {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.meal3 {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/Project\ 2.png);
+
+    }
+
+p2 {
+    font-size: 17;
+    font-family: 'Ropa Sans', sans-serif;
+}
+    
+.meal2 {
+    background-image: url(../images/background-project-1@1x.jpg);
+}
+
+
+
+.meal2_grp {
+    margin: 100px;
+    position: relative;
+    bottom: -20%;
+    width: 75%;
+}
+
+
+
+hr {
+    background-color: white;
+   
+}
+
+.meal4_grp {
+    margin: 100px;
+    position: relative;
+    top: 15%;
+    width: 75;
+}
+
+.meal3_grp {
+    position: relative;
+    bottom: -100px;
+    right: -40%;
+    width: 55%;
+}
+
+.meal1 {
+    background-image: url(../images/image-30@1x.jpg);
+    background-position: top;
+
+    
+    
+}
+
+.meal4 {
+   
+    background-image: url(../images/Bitmap.png);
+   
+
+}
+
+.text {
+    
+    width: 50%;
+    padding: 20px 40px;
+
+    color: white;
+}
+
+#text2  {
+    
+    width: 70%;
+    color: white;
+    
+}
+
+#text4 {
+    width: 70%;
+    color: white;
+}
+#text3 {
+    width: 100%;
+    color: white;
+    }
+
+    
+
+.text1 {
+    
+    width: 65%;
+    margin: 90px;
+    position: relative;
+    top: 160px;
+    color: white;
+
+}
+.icons {
+    display:flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
+p {
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+button {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #007AFF;
+    border-radius: 0px;
+    width: 206px;
+    height: 63px;
+    cursor: pointer;
+}
+/* Footer Styles */
