@@ -2,6 +2,15 @@
     "folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Downloads\\18.3-20200912T144907Z-001\\18.3\\18.3-activities solutions"
+		},
+		{
+			"path": "..\\..\\..\\Downloads\\19.1"
+		},
+		{
+			"path": "..\\..\\..\\Downloads\\19.1\\19.1\\19.1-activities"
 		}
 	]
 }
