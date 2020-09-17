@@ -3,25 +3,35 @@ body {
     margin: 0px;
 }
 nav {
+    width: 95%;
     display: flex;
-    padding: 40px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     align-content: flex-start;
+    justify-content: space-between;
 }
 
 
 .right {
-   width: 40%;
     display: flex;
     justify-content: space-around;
-    position: relative;
-    right: -33%;
-}
+    }
 
 .left a, .right a {
     color:white;
     font-family: 'Ropa Sans', sans-serif;
     text-decoration: none;
     font-size: 20px;
+}
+
+.right a {
+    margin-left: 20px;
+
+}
+
+.right a:last-child {
+    margin-right: 20px;
 }
 
 /* Column styles */
@@ -53,10 +63,11 @@ nav {
 }
 
 .intouch {
-    padding: 25px 43px;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 .Footer_stuff {
-    
+    margin-left: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -89,7 +100,7 @@ p2 {
     margin: 100px;
     position: relative;
     bottom: -20%;
-    width: 75%;
+    width: 80%;
 }
 
 
@@ -103,7 +114,7 @@ hr {
     margin: 100px;
     position: relative;
     top: 15%;
-    width: 75;
+    width: 90%;
 }
 
 .meal3_grp {
@@ -138,7 +149,7 @@ hr {
 
 #text2  {
     
-    width: 70%;
+    width: 75%;
     color: white;
     
 }
@@ -156,10 +167,10 @@ hr {
 
 .text1 {
     
-    width: 65%;
-    margin: 90px;
+    width: 60%;
+    margin-left: 5%;
     position: relative;
-    top: 160px;
+    top: 245px;
     color: white;
 
 }
@@ -193,3 +204,83 @@ button {
     cursor: pointer;
 }
 /* Footer Styles */
+
+/* Mobie Screen */
+.left a {
+    display: flex;
+    /*flex-direction:column;*/
+    flex-wrap: wrap;
+}
+@media (max-width:720px) {
+    
+
+    .text1 {
+        top: 200px;
+        width: 85%;
+
+    }
+
+    .meal2_grp {
+        
+        bottom: -10%;
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+    .meal3_grp {
+        right: -5%;
+        width: 70%;
+        background-size: 25%,25%;
+    }
+    .meal4_grp {
+        margin: 5%;
+        top: 4%;
+    
+    }
+    
+
+    .Footer_stuff p {
+        font-size: 14px;
+    }
+    .Footer_stuff p2 {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:500px) {
+    
+
+    .text1 {
+        top: 180px;
+        width: 85%;
+
+
+    }
+    h1 {
+        font-size: 25px;
+    }
+    
+    .meal2_grp {
+        
+        width: 95%;
+        
+        
+    }
+    .meal3_grp {
+        
+        width: 70%;
+        
+    }
+    .Footer_stuff {
+        margin-left: 12%;
+        margin-right: 5%;
+        }
+
+    .Footer_stuff p {
+        font-size: 12px;
+    }
+    .Footer_stuff p2 {
+        font-size: 10px;
+    }
+}
+    
