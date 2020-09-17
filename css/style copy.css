@@ -62,15 +62,20 @@ nav {
 
 }
 
-.intouch {
-    margin-left: 5%;
-    margin-top: 5%;
+
+.Footer_content {
+    width: 90%;
+    margin: 5%;
+    position: relative;
+    right: auto;
+   
+
 }
+
 .Footer_stuff {
-    margin-left: 2%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .meal3 {
     height: 700px;
@@ -282,5 +287,6 @@ button {
     .Footer_stuff p2 {
         font-size: 10px;
     }
+    
 }
     
