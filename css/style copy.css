@@ -90,8 +90,8 @@ nav {
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/Project\ 2.png);
-    background-color: #676767;
+    background-image: url(../images/Project2.png);
+    transition: background-image 0.5s ease-in-out;
 
     }
 
@@ -199,6 +199,12 @@ p {
     font-size: 20px;
 }
 
+pre {
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -214,10 +220,14 @@ h1 {
     width: 206px;
     height: 63px;
     cursor: pointer;
-    transition-duration: .5sec ;
+    transition-duration: .5s ;
 }
 
 .meal2_grp button:hover {
+    background-color: #007AFF;
+}
+
+.meal3_grp button:hover {
     background-color: #007AFF;
 }
 

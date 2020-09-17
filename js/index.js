@@ -5,3 +5,13 @@ $('.meal2_grp button').hover(function() {
 $('.meal2_grp button').mouseout(function() {
     $('.meal2').css('background-image','url(./images/background-project-1@1x.jpg)');
   })
+
+  $('.meal3_grp button').hover(function() {
+    $('.meal3').css('background-image','url(./images/Project2.jpg)');
+    $('#text3').css('color','white');
+  })
+
+$('.meal3_grp button').mouseout(function() {
+    $('.meal3').css('background-image','url(./images/Project2.png)');
+    $('#text3').css('color','white');
+  })
