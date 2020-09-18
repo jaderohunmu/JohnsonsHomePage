@@ -15,3 +15,13 @@ $('.meal3_grp button').mouseout(function() {
     $('.meal3').css('background-image','url(./images/Project2.png)');
     $('#text3').css('color','white');
   })
+
+  $('.meal4_grp button').hover(function() {
+    $('.meal4').css('background-image','url(./images/Bitmap2.png)');
+    $('#text4').css('color','white');
+  })
+
+  $('.meal4_grp button').mouseout(function() {
+    $('.meal4').css('background-image','url(./images/Bitmap.png)');
+    $('#text4').css('color','white');
+  })

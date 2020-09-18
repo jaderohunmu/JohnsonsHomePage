@@ -147,7 +147,7 @@ hr {
 .meal4 {
    
     background-image: url(../images/Bitmap.png);
-   
+    transition: background-image 0.5s ease-in-out;
 
 }
 
