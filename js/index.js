@@ -19,9 +19,15 @@ $('.meal3_grp button').mouseout(function() {
   $('.meal4_grp button').hover(function() {
     $('.meal4').css('background-image','url(./images/Bitmap2.png)');
     $('#text4').css('color','white');
+    $('#animation').fadeIn();
   })
 
   $('.meal4_grp button').mouseout(function() {
     $('.meal4').css('background-image','url(./images/Bitmap.png)');
     $('#text4').css('color','white');
+    $('#animation').fadeOut();
+  })
+
+  $(document).ready(function() {
+    $('#animation').hide();
   })

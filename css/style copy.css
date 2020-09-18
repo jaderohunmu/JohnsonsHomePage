@@ -139,6 +139,8 @@ hr {
 .meal1 {
     background-image: url(../images/image-30@1x.jpg);
     background-position: top;
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: overlay;
 
     
     
