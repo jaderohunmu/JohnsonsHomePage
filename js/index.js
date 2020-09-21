@@ -31,3 +31,8 @@ $('.meal3_grp button').mouseout(function() {
   $(document).ready(function() {
     $('#animation').hide();
   })
+
+  function fade() {
+    $('.preloader').fadeOut("slow");
+    }
+    setTimeout(fade, 3000);

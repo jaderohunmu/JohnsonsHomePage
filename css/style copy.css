@@ -22,23 +22,26 @@ nav {
 .right {
     display: flex;
     justify-content: space-around;
+    margin-right: 20px;
     }
 
-.left a, .right a {
+.left a {
     color:white;
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-size: 20px;
 }
 
 .right a {
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
     margin-left: 20px;
 
 }
 
-.right a:last-child {
-    margin-right: 20px;
-}
+
 
 /* Column styles */
 
@@ -183,7 +186,7 @@ hr {
 .text1 {
     
     width: 60%;
-    margin-left: 5%;
+    margin-left: 10%;
     position: relative;
     top: 295px;
     color: white;
@@ -246,6 +249,31 @@ h1 {
     /*flex-direction:column;*/
     flex-wrap: wrap;
 }
+
+.hamburger {
+    display: none;
+    margin-right: 20px;
+    font-size: 60px;
+
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: black;
+    top: 0;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .preloader h1 {
+    color: white;
+    margin: 0 auto;
+  }
+
 @media (max-width:720px) {
     
 
@@ -255,7 +283,17 @@ h1 {
 
     }
 
+    .hamburger {
+        display: inline-flex;
+        margin-right: 20px;
+
+   
+    }
+
     
+    .right a {
+        display: none;
+        }
 
     .meal2_grp {
         
