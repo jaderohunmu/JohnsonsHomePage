@@ -36,3 +36,14 @@ $('.meal3_grp button').mouseout(function() {
     $('.preloader').fadeOut("slow");
     }
     setTimeout(fade, 3000);
+
+    $('.hamburger').click(function() {
+      $('.meal3').css('background-image','url(./images/Project2.png)');
+      $('#text3').css('color','white');
+    })
+
+    $(".Skills, .Work, .Passions").click(function(){
+      $(this).css('color','yellow');
+      $(this).find(".toggleContainer").toggleClass("active");
+      $(this).siblings(".Skills").find(".toggleContainer").removeClass("active");
+    });

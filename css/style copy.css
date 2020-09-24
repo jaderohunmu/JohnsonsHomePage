@@ -14,15 +14,14 @@ nav {
 }
 
 .text1 p {
-    background-color:palevioletred;
-    color:seashell;
+    color:white;
     width: 90%;
 }
 
 .right {
     display: flex;
     justify-content: space-around;
-    margin-right: 20px;
+    margin-right: 50px;
     }
 
 .left a {
@@ -37,7 +36,7 @@ nav {
     font-family: 'Ropa Sans', sans-serif;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 70px;
 
 }
 
@@ -74,7 +73,7 @@ nav {
 
 .Footer_content {
     width: 90%;
-    margin: 5%;
+    
     position: relative;
     right: auto;
    
@@ -141,6 +140,7 @@ hr {
 }
 
 .meal1 {
+    
     background-image: url(../images/image-30@1x.jpg);
     background-position: top;
     background-color: rgba(0, 0, 0, 0.486);
@@ -148,6 +148,49 @@ hr {
 
     
     
+}
+
+.Accordion {
+    position: relative;
+    top: 252px;
+    color: white;
+    left: 830px;
+    height: fit-content;
+    width: fit-content;
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;   
+
+}
+
+.Skills button, .Work button, .Passions button {
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px; 
+    background: transparent;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;  
+}
+
+.padding {
+    padding: 10px 20px;
+}
+
+.toggleContainer {
+    display: none;
+    transition: all;
+    margin-top: 8px;
+  }
+
+.active {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+ul {
+    list-style-type: none;
 }
 
 .meal4 {
@@ -186,10 +229,10 @@ hr {
 .text1 {
     
     width: 60%;
-    margin-left: 10%;
-    position: relative;
-    top: 295px;
+    margin-left: 5%;
+    position: absolute;
     color: white;
+    top: 250px;
 
 }
 .icons {
@@ -197,6 +240,12 @@ hr {
     justify-content: space-between;
     width: 200px;
 
+}
+
+.Accordion h1 {
+    font-size: 30px;
+    padding: 1px 45px;
+    color: yellow;
 }
 
 p {
@@ -281,6 +330,10 @@ h1 {
         top: 200px;
         width: 85%;
 
+    }
+
+    .Accordion {
+        display: none;  
     }
 
     .hamburger {
@@ -379,6 +432,19 @@ h1 {
   }
 
   @keyframes movingBox {
+    from {
+      transform: scale(.3, .3);
+    }
+      50% {
+      transform: scale(.5,.5);
+    }
+    
+    to {
+      transform: scale(.3, .3);
+    }
+  }
+
+  @keyframes preloader {
     from {
       transform: scale(.3, .3);
     }
