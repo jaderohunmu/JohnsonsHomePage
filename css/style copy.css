@@ -70,17 +70,21 @@ nav {
 
 }
 
+.Footer h1 {
+    padding-top: 60px;
+}
 
 .Footer_content {
     width: 90%;
-    
     position: relative;
-    right: auto;
-   
+    margin-left: 5%;
+    background-color: #0F0F0F;  
 
 }
 
 .Footer_stuff {
+    margin-top: 5%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -198,6 +202,10 @@ ul {
     background-image: url(../images/Bitmap.png);
     transition: background-image 0.5s ease-in-out;
 
+}
+
+.intouch h1 {
+    margin: 0px;
 }
 
 .text {
