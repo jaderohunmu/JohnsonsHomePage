@@ -63,6 +63,7 @@ nav {
     flex-direction: column;
     margin-bottom: 0px;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     
 
